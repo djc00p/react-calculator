@@ -6,7 +6,7 @@ describe('Calculator', () => {
   let wrapper;
   beforeEach(() => wrapper = shallow(<Calculator />));
 
-  it('should rendera <div />', () => {
-    expect(wrapper.find('div').legnth).tpEqual(1);
+  it('should render a <div />', () => {
+    expect(wrapper.find('div').length).toEqual(1);
   });
 });
